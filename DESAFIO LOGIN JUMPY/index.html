@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>[DNC] Login Jumpy</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>
+    <header>
+        <img src="assets/logoDNC.png" alt="logo da dinamica">
+    </header>
+    <section>
+        <div id="title">
+            <img src="assets/logoJumpy.png" alt="logo da jumpy">
+            <p>Bem vindo ao jumpy!</p>
+        </div>
+        <form id="form-site">
+
+            <div class="form-input">
+                <label for="name">Nome Completo:</label>
+                <input id="name" class="input-form" placeholder="Nome completo" name="name"></input>
+                <small class="small-text-input">*Campo Obrigatório*</small>
+            </div>
+
+            <div class="form-input">
+                <label for="email">Email:</label>
+                <input id="email" class="input-form" type="email" placeholder="Ex: Email@gmail.com" name="email"></input>
+                <small class="small-text-input">*Campo Obrigatório*</small>
+            </div class="form-input">
+
+            <div class="form-input">
+                <label for="phone">Telefone:</label>
+                <input id="phone" class="input-form" placeholder="Ex: 12 1234-1234" name="phone" maxlength="11"></input>
+                <small class="small-text-input" id="small-text-phone">*Campo Obrigatório*</small>
+            </div>
+
+            <div class="form-input">
+                <label for="cpf">CPF:</label>
+                <input id="cpf" class="input-form" placeholder="Ex: 000.000.000-00" name="cpf" autocomplete="off" maxlength="11"></input>
+                <small class="small-text-input" id="small-text-cpf">*Campo Obrigatório*</small>
+            </div>
+
+            <div class="form-input">
+                <label for="password">Senha:</label>
+                <input id="password" class="input-form" type="password" placeholder="*********" name="password" autocomplete="off"></input>
+                <small class="small-text-input" id="small-text-password">*Campo Obrigatório*</small>
+            </div>
+
+            <button type="submit" >Cadastrar</button>
+            <small class="small-text" id="small-text-button"></small>
+        </form>
+    </section>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
